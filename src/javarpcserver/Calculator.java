@@ -32,7 +32,7 @@ public class Calculator {
               String myDriver = "com.mysql.jdbc.Driver"; //"org.gjt.mm.mysql.Driver";
               String myUrl = "jdbc:mysql://localhost:3306/miotdb?useSSL=false";
               Class.forName(myDriver);
-              Connection conn = DriverManager.getConnection(myUrl, "miotuser", "M!otPass1");
+              Connection conn = DriverManager.getConnection(myUrl, "miotuser", "****");
 
               // our SQL SELECT query. 
               // if you only need a few columns, specify them by name instead of using "*"
